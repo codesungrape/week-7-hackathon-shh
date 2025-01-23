@@ -1,8 +1,12 @@
 
-export default function Flashcard({ value, handleClick }) {
+export default function Flashcard({ value, handleClick, index }) {
 
     return (
-        <section onClick ={handleClick} style ={{ border: "2px solid black", padding: "10px", margin: "10px" }} >
+        <section 
+        role="region"
+        key={index}
+        onClick ={handleClick} 
+        style ={{ border: "2px solid black", padding: "10px", margin: "10px" }} >
             {value}
     </section>
     )
