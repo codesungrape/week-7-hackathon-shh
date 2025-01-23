@@ -1,4 +1,5 @@
 import Flashcard from "../Flashcard/Flashcard"
+import { useState } from "react";
 
 
 
@@ -13,14 +14,14 @@ export default function FlashcardsContainer() {
     return (
         < div className="FlashcardsContainer" style={{ border: "2px solid black", padding: "10px", margin: "10px" }}>
             <div>
-                <Flashcard />
-                <Flashcard />
-                <Flashcard />
+                <Flashcard value = "Q1"/>
+                <Flashcard value = "Q2"/>
+                <Flashcard value = "Q3"/>
             </div>
             <div>
-                <Flashcard />
-                <Flashcard />
-                <Flashcard />
+                <Flashcard value = "Q4"/>
+                <Flashcard value = "Q5"/>
+                <Flashcard value = "Q6"/>
             </div>
         </ div >
     )
