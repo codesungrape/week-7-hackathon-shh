@@ -1,10 +1,9 @@
 
-export default function Flashcard({value}) {
+export default function Flashcard({ value, handleClick }) {
 
     return (
-        <section style={{ border: "2px solid black", padding: "10px", margin: "10px" }} >
+        <section onClick ={handleClick} style ={{ border: "2px solid black", padding: "10px", margin: "10px" }} >
             {value}
     </section>
     )
-    
 }
