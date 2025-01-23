@@ -2,8 +2,9 @@
 export default function Flashcard() {
 
     return (
-        <section style={{ border: "2px solid black", padding: "10px", margin: "10px" }} >
-    </section>
+        <button style={{ border: "2px solid black", padding: "40px", margin: "10px" }} >
+            {/* <span><img src=""></span> */}
+            Flash Card Question
+    </button>
     )
-    
 }
